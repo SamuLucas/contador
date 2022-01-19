@@ -1,0 +1,32 @@
+url @import ('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+* {
+    font-family: 'Open Sans' sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(59, 101, 180);
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px sólido lightcoral;
+    background-color: rgb(165, 189, 169);
+    color: rgb(124, 19, 19);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+h1 {
+    margin-left: 40px;
+}
